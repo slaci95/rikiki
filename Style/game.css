@@ -1,0 +1,122 @@
+* {
+	margin:auto;
+}
+
+body {
+	margin:0 auto;
+	padding:0;
+	background-color:gray;
+}
+
+.container {
+	width:1024px;
+	text-align:center;
+	padding:10px;
+}
+
+.scorebox{
+	float:left;
+	margin-bottom:5px;
+	text-align:center;
+	width:200px;
+	background-color:saddlebrown;
+	border:3px outset white; 
+}
+
+.scorebox table {
+	margin:auto;
+	width:95%;
+	text-align:center;
+	color:white;
+	font-size:25px;
+}
+
+.tip {
+	min-width:200px;
+	float:left;
+	margin-left:5px;
+	margin-bottom:5px;
+	background-color:444444;
+	border:3px solid white;
+	padding:5px;
+}
+
+.tip table {
+	width:100%;
+	border-collapse:collapse;
+	font-size:25px;
+	color:Orange;
+	font-weight:bold;
+	font-variant:small-caps;
+	letter-spacing:2px;
+	background-color:444444;
+}
+
+.tip_input {
+	width:50px;
+	text-align:center;
+	font-size:20px;
+	color:white;
+	background-color:darkred;
+	border: 2px solid white;
+}
+
+.tip_submit {
+	width:80%;
+	font-size:17px;
+	font-weight:bold;
+	background-color:yellow;
+	border:2px solid black;
+	cursor:pointer;
+}
+
+.logger {
+	margin:0;
+	text-align:left;
+	max-height:400px;
+	overflow:auto; 
+}
+
+.logger table {
+	margin-left:210px;
+	margin-top:10px;
+	width:500px;
+	text-align:center;
+	border-collapse:collapse;
+	border:3px solid black;
+	background-color:darkred;
+	color:white;
+}
+
+.logger_nevek {
+	font-size:30px;
+	font-variant:small-caps;
+}
+
+.pstarter {
+	margin:auto;
+	padding:7px 0px 7px 10px;
+	background-color:black;
+	margin-left:5px;
+	float:left;
+	width:300px;
+	border:2px solid white;
+	font-size:30px;
+	color:yellow;
+}
+
+.fixer {
+	width:300px;
+	margin:5px 0px 0px 5px;
+	border:2px solid white;
+	float:left;
+	font-size:30px;
+	padding:7px 5px 7px 5px;
+	line-height: 50%;
+}
+
+.fixer form input {
+	color:white;
+	background-color:222222;
+	border:2px inset white;
+}

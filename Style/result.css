@@ -1,0 +1,28 @@
+body {
+	margin:auto;
+	background: gray;
+	text-align:center;
+}
+
+.logger table {
+	margin:auto;
+	margin-top:50px;
+	width:500px;
+	text-align:center;
+	border-collapse:collapse;
+	border:3px solid black;
+	background-color:darkred;
+	color:white;
+}
+
+.logger_nevek {
+	font-size:30px;
+	font-variant:small-caps;
+}
+
+.scorebox table {
+	width:300px;
+	margin:auto;
+	margin-top:50px;
+	text-align:center;
+}

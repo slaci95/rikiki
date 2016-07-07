@@ -1,0 +1,49 @@
+﻿body {
+	margin:auto;
+	background: gray;
+	text-align:center;
+}
+
+header {
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	width:500px;
+	background-color:white;
+	color:red;
+	letter-spacing:20px;
+	font-size:60px;
+	font-weight:bold;
+	font-variant:small-caps;
+	border-radius:10px;
+}
+
+.playerselect {
+	padding:10px;
+	padding-top:20px;
+	margin:auto;
+	display:table;
+	width:350px;
+	background-color:lightgray;
+}
+
+.playerselect input {
+	width:150px;
+	background-color:black;
+	color:white;
+	font-size:20px;
+	text-align:center;
+	border:3 solid darkred;
+}
+
+.p_button {
+	margin: 5px auto 5px auto;
+	background-color:white;
+	width:200px;
+	cursor:pointer;
+	background-color:lightblue;
+	border: 3px solid orange;
+	font-size:20px;
+	font-weight:bold;
+	color:darkred;
+}
